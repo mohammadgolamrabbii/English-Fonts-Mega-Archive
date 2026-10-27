@@ -1,0 +1,85 @@
+/**
+ * World's Largest English & Western Open Typography Mega Archive
+ * Curated by Mohammad Golamrabbii (https://linktr.ee/golamrabbii)
+ * License: SIL Open Font License 1.1 / Apache 2.0 / CC0
+ */
+
+/* ==========================================================================
+   Modern Minimalist UI Stack (Inter & Roboto)
+   ========================================================================== */
+@font-face {
+  font-family: 'Inter';
+  src: url('./01_Modern_Geometric_NeoGrotesk/Inter/Inter-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./01_Modern_Geometric_NeoGrotesk/Inter/Inter-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ==========================================================================
+   Editorial Luxury Serif Stack (Playfair Display)
+   ========================================================================== */
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('./02_Editorial_Luxury_Serif/PlayfairDisplay/PlayfairDisplay-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('./02_Editorial_Luxury_Serif/PlayfairDisplay/PlayfairDisplay-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ==========================================================================
+   High-CTR Display Headline Stack (Bebas Neue)
+   ========================================================================== */
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('./03_HighCTR_YouTube_Display/BebasNeue/BebasNeue-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ==========================================================================
+   Developer Monospace Coding Stack (Fira Code)
+   ========================================================================== */
+@font-face {
+  font-family: 'Fira Code';
+  src: url('./05_Developer_Coding_Monospace/FiraCode/FiraCode-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ==========================================================================
+   Futuristic Sci-Fi Cyberpunk Stack (Orbitron)
+   ========================================================================== */
+@font-face {
+  font-family: 'Orbitron';
+  src: url('./07_Cyberpunk_SciFi_Techno/Orbitron/Orbitron-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Root CSS Variables for Easy Site-Wide Usage */
+:root {
+  --font-ui-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-editorial-serif: 'Playfair Display', Georgia, Cambria, serif;
+  --font-display-headline: 'Bebas Neue', Impact, sans-serif;
+  --font-code-mono: 'Fira Code', 'JetBrains Mono', Consolas, monospace;
+  --font-scifi-tech: 'Orbitron', 'Rajdhani', sans-serif;
+}
