@@ -6,6 +6,7 @@
 [![Fonts: 50,000+](https://img.shields.io/badge/Typefaces-50%2C000%2B-gold.svg)](https://github.com/mohammadgolamrabbii/English-Fonts-Mega-Archive)
 [![Platform: Linux%20%7C%20Windows%20%7C%20macOS%20%7C%20Docker](https://img.shields.io/badge/Platform-Linux%20%7C%20Win%20%7C%20Mac%20%7C%20Docker-brightgreen.svg)](#)
 [![Docker Pulls](https://img.shields.io/badge/Docker%20Hub-golamrabbiii%2Fenglish--fonts--mega--archive-blue?logo=docker)](https://hub.docker.com/r/golamrabbiii/english-fonts-mega-archive)
+[![Archive.org Permanent Mirror](https://img.shields.io/badge/Archive.org-Permanent_Library_(11_Vols)-000000?logo=internet-archive&logoColor=white)](https://archive.org/details/open-typography-foundation-english-fonts)
 [![GitLab Mirror](https://img.shields.io/badge/GitLab-Mirror%20Available-orange?logo=gitlab)](https://gitlab.com/golamrabbiii/English-Fonts-Mega-Archive)
 
 ---
@@ -18,6 +19,15 @@ To bridge this gap permanently, **Mohammad Golamrabbii** has built the **World's
 Every typeface in this mega-archive is maintained under permissive open-source licenses (**SIL Open Font License 1.1, Apache 2.0, MIT, or Public Domain / CC0**), making it **100% free and safe for commercial projects, client websites, mobile apps, video production, YouTube monetization, and print publication**.
 
 ---
+
+
+---
+
+## 🏛️ Permanent Lifelong Mirrors on Internet Archive (Archive.org)
+To bypass GitHub git LFS limits and single zip download size restrictions, download the entire English archive across 11 high-speed curated volumes with zero rate-limits and BitTorrent mirrors:
+* 🌐 **[Archive.org English Mega Archive (30,886+ Fonts in 11 Volumes)](https://archive.org/details/open-typography-foundation-english-fonts)**
+* 🧲 **[BitTorrent Archive Download](https://archive.org/download/open-typography-foundation-english-fonts/open-typography-foundation-english-fonts_archive.torrent)**
+* 🏛️ **[Open Typography Foundation Central Hub](https://archive.org/details/open-typography-foundation)**
 
 ## 🏛️ The 12 Master Architectural Categories
 
