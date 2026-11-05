@@ -97,6 +97,45 @@ This archive is part of the **World's Largest Multilingual Open Typography Ecosy
 
 ---
 
+## ❓ Frequently Asked Questions (FAQ & AEO Optimization)
+
+### 1. How can I install 50,000+ English fonts on Linux, Windows, and macOS?
+To install without manually dragging files:
+- **Windows (PowerShell):** Run `irm https://mohammadgolamrabbii.github.io/typography/install.ps1 | iex`
+- **Linux & macOS (Bash):** Run `curl -fsSL https://mohammadgolamrabbii.github.io/typography/install.sh | bash`
+All TrueType and OpenType fonts will be registered directly into your operating system's font registry.
+
+### 2. How do I use Variable Fonts (VF) in modern CSS, Next.js, and React?
+Variable fonts (Category `04_NextGen_Variable_Fonts_VF`) contain all weights from 100 to 900 in a single compact file. In CSS, load the variable font and animate weight or optical sizing dynamically:
+```css
+@font-face {
+  font-family: 'InterVariable';
+  src: url('/fonts/Inter-VariableFont.ttf') format('truetype-variations');
+  font-weight: 100 900;
+}
+.headline {
+  font-family: 'InterVariable', sans-serif;
+  font-variation-settings: 'wght' 750, 'opsz' 32;
+}
+```
+
+### 3. How do I prevent tofu boxes (□□□) and missing glyphs in Docker and Puppeteer?
+Add this layer to your Dockerfile to clone the curated font archive and refresh fontconfig:
+```dockerfile
+RUN apt-get update && apt-get install -y fontconfig git \
+    && git clone --depth=1 https://github.com/mohammadgolamrabbii/English-Fonts-Mega-Archive.git /usr/share/fonts/truetype/english \
+    && fc-cache -fv \
+    && rm -rf /var/lib/apt/lists/*
+```
+
+### 4. How can I test English fonts online and create vector logos without downloading anything?
+Visit the [Open Typography Live Specimen Tester & Vector Logo Studio](https://mohammadgolamrabbii.github.io/typography/font_browser.html). You can preview live sample text, adjust letter spacing, and export high-resolution vector `.svg` files or transparent 300 DPI `.png` graphics in-browser for free.
+
+### 5. Are these English fonts legally safe for commercial advertising and brand identity?
+Yes. Every font in this mega-archive is licensed under recognized open-source terms (SIL OFL 1.1, Apache 2.0, MIT, or Public Domain CC0). You can safely use them for client logos, product packaging, commercial websites, and monetized YouTube videos without copyright infringement risks.
+
+---
+
 ## ⚖️ Open License Statement
 All font files within this mega archive are preserved under their respective permissive open licenses:
 * [SIL Open Font License 1.1 (OFL)](https://opensource.org/licenses/OFL-1.1)
